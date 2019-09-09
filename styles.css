@@ -1,4 +1,32 @@
-h1 {
+body {
     font-family: sans-serif;
-    color: blueviolet;
+    padding: 0%;
+}
+
+#main {
+    margin: 0%;
+}
+
+#banner {
+    /* background-color: red; */
+    width: 40%;
+    /* height: 2em; */
+    /* position: absolute; */
+    margin: auto;
+    /* box-align: center; */
+    /* z-index: 2; */
+}
+
+#large-image {
+    background-color: gray;
+    height: 20em;
+    background-image: url("images/people\ drinking\ coca\ cola.jpeg");
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+}
+
+.full-width {
+    display: block;
+    position: relative;
 }

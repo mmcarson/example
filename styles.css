@@ -1,6 +1,7 @@
 body {
-    font-family: sans-serif;
+    font-family: bookman, sans-serif;
     padding: 0%;
+    margin: 0%;
 }
 
 #main {
@@ -8,22 +9,32 @@ body {
 }
 
 #banner {
-    /* background-color: red; */
-    width: 40%;
+    background-color: lightgrey;
+    width: 20%;
     /* height: 2em; */
+    /* height: 10%; */
     /* position: absolute; */
-    margin: auto;
+    /* top: 90%; */
+    /* left: 35%; */
+    padding: .5em 40%;
+    margin: 0%;
     /* box-align: center; */
     /* z-index: 2; */
 }
 
 #large-image {
-    background-color: gray;
-    height: 20em;
+    margin: -.25em 0em 0em 0em;
+    /* background-color: gray; */
+    background-position-y: center;
+    height: 50vh;
     background-image: url("images/people\ drinking\ coca\ cola.jpeg");
     background-size: cover;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
+}
+
+.info {
+    padding: .5em 2em;
 }
 
 .full-width {

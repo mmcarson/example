@@ -11,25 +11,16 @@ body {
 #banner {
     background-color: rgba(211, 211, 211, 0.529);
     width: 20%;
-    /* height: 2em; */
-    /* height: 10%; */
-    /* position: absolute; */
-    /* top: 90%; */
-    /* left: 35%; */
     padding: .5em 40%;
     margin: 0%;
-    /* box-align: center; */
-    /* z-index: 2; */
 }
 
 #large-image {
     margin: -.25em 0em 0em 0em;
-    /* background-color: gray; */
     background-position-y: top;
     height: 60vh;
     background-image: url("images/people\ drinking\ coca\ cola2.jpg");
     background-size: cover;
-    /* position: absolute; */
     width: 100%;
 }
 
@@ -37,11 +28,6 @@ body {
     padding: .5em 2em;
     background-color: whitesmoke;
     color: rgb(74, 74, 74);
-}
-
-.full-width {
-    display: block;
-    position: relative;
 }
 
 #history {

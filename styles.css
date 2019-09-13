@@ -1,23 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab|Lobster+Two&display=swap');
 body {
-    font-family: Bookman Old Style, serif;
+    font-family: Roboto Slab, Bookman Old Style, serif;
     padding: 0%;
     margin: 0%;
+    /* background-image: url("images/red-snow-background.jpg");
+    background-size: cover; */
+    background-color: whitesmoke;
 }
 
-#main {
-    margin: 0%;
+p {
+    font-family: 'Roboto', sans-serif;
+    opacity: .8;
 }
 
 #banner {
-    background-color: rgba(211, 211, 211, 0.529);
-    width: 20%;
-    padding: .5em 40%;
+    background-color: #d3d3d387;
+    width: 10rem;
+    padding: .5em calc(50vw - 5rem);
     margin: 0%;
 }
 
 #large-image {
     margin: -.25em 0em 0em 0em;
     background-position-y: top;
+    background-position-x: right;
     height: 60vh;
     background-image: url("images/people\ drinking\ coca\ cola2.jpg");
     background-size: cover;
@@ -26,11 +32,48 @@ body {
 
 .info {
     padding: .5em 2em;
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245);
     color: rgb(74, 74, 74);
 }
 
-#history {
-    background-color: rgb(179, 1, 1);
+.info:nth-child(4n - 3) {
+    background-color: rgba(179, 1, 1);
     color: whitesmoke;
+}
+
+.info:nth-child(4n - 1) {
+    background-color: rgba(74, 74, 74);
+    color: whitesmoke;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
+}
+
+@media (max-width: 600px) {
+    #large-image {
+        height: 30vh;
+    }
+}
+
+#history h2 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 3em;
+    margin: 1rem 0% 0% 0%;
+}
+
+h3 {
+    opacity: .6;
+}
+
+
+/* @media (min-width: 600px) {
+    #bears {
+        grid-column: span 2;
+    }
+} */
+
+.fit {
+    max-width: 100%;
 }
